@@ -38,7 +38,7 @@ namespace Crud3
             p[dim].nome = text_nome.Text;
             p[dim].prezzo = float.Parse(text_prezzo.Text);
             dim++;
-            //visualizza(p);
+            visualizza(p);
             text_nome.Text = "";
             text_prezzo.Text = "";
             MessageBox.Show("Prodotto Aggiunto!");
